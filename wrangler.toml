@@ -1,0 +1,21 @@
+name = "redirector"
+main = "src/index.js"
+compatibility_date = "2024-04-03"
+account_id = "YOUR_ACCOUNT_ID"
+
+[vars]
+SERVICE_CF_ID = "YOUR_CF_ID"
+SERVICE_CF_SECRET = "YOUR_CF_SECRET"
+
+WORKER_ENDPOINT = "https://redirector.yourname.workers.dev/"
+SLIVER_ENDPOINT = "https://sliver.yourdomain.com/"
+LIGOLO_ENDPOINT = "https://ligolo.yourdomain.com/"
+FILES_ENDPOINT  = "https://files.yourdomain.com/"
+
+SLIVER_HEADER = "MY-SLIVER"
+LIGOLO_HEADER = "MY-LIGOLO"
+CUSTOM_IP = "1.1.1.1"
+
+
+
+
